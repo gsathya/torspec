@@ -178,7 +178,7 @@ of their choices.
 
 2.1.6. When to tear down circuits
 
-   XXXX
+   Clean circuits are torn down after an hour.
 
 
 2.2. Path selection and constraints
