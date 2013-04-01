@@ -196,6 +196,8 @@ of their choices.
        non-valid routers in "middle" and "rendezvous" positions.
      - If we're using Guard nodes, the first node must be a Guard (see 5
        below)
+     - First the exit node is selected, then the guard node is selected and
+       finally the middle is chosen.
      - XXXX Choosing the length
 
    For "fast" circuits, we only choose nodes with the Fast flag. For
